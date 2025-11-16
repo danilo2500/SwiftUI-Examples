@@ -37,8 +37,15 @@ struct GradientExamplesView: View {
                         Image(systemName: "star.fill")
                             .resizable()
                     )
+                
+                LinearGradient(colors: [.purple, .pink], startPoint: .top, endPoint: .bottom)
+                    .mask(
+                        Text("SwiftUI")
+                            .font(.largeTitle)
+                            .bold()
+                    )
             }
-            .frame(width: 100, height: 100)
+            .aspectRatio(contentMode: .fit)
         }
         .navigationTitle("Gradients")
     }

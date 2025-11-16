@@ -13,6 +13,5 @@ struct SwiftUI_ExamplesApp: App {
         WindowGroup {
             MainView()
         }
-        Settings
     }
 }
