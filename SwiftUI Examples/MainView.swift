@@ -17,12 +17,14 @@ struct MainView: View {
                 NavigationLink("Scrollable Video") {
                     ScrollableVideoView()
                 }
+                NavigationLink("ListEditView") {
+                    ListEditView()
+                }
             }
             .navigationTitle("SwiftUI Examples")
         }
     }
 }
-
 
 
 #Preview {
