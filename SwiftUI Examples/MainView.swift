@@ -20,11 +20,15 @@ struct MainView: View {
                 NavigationLink("ListEditView") {
                     ListEditView()
                 }
+                NavigationLink("AIMessageChatView") {
+                    AIMessageChatView()
+                }
             }
             .navigationTitle("SwiftUI Examples")
         }
     }
 }
+
 
 
 #Preview {
