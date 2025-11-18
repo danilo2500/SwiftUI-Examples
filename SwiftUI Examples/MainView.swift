@@ -26,6 +26,9 @@ struct MainView: View {
                 NavigationLink("path") {
                     PathView()
                 }
+                NavigationLink("3d globe") {
+                    GlobeView()
+                }
             }
             .navigationTitle("SwiftUI Examples")
         }
