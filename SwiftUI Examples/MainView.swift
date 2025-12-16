@@ -30,6 +30,9 @@ struct MainView: View {
                 NavigationLink("3d globe") {
                     GlobeView()
                 }
+                NavigationLink("Gauge") {
+                    GaugeExampleView()
+                }
                 NavigationLink("BlendCircles") {
                     BlendCircles()
                 }
