@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_ExamplesApp: App {
     var body: some Scene {
         WindowGroup {
-            GaugeExampleView()
+            MainView()
         }
     }
 }
