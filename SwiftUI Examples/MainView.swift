@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-internal import Combine
 
 struct MainView: View {
     var body: some View {
@@ -35,6 +34,9 @@ struct MainView: View {
                 }
                 NavigationLink("BlendCircles") {
                     BlendCircles()
+                }
+                NavigationLink("Any Layout") {
+                    AnyLayoutExampleView()
                 }
             }
             .navigationTitle("SwiftUI Examples")
